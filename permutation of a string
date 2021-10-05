@@ -1,0 +1,6 @@
+Permutations of a string
+a="tanish"
+from itertools import permutations
+x=permutations(a)
+for i in list(x):
+    print("".join(i))
